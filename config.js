@@ -19,7 +19,7 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID:process.env.SESSION_ID || "cWNLU0R_XASENA_VVkU=",
+  SESSION_ID:process.env.SESSION_ID || "VmI3RXF_XASENA_lV0g=",
   LANG: process.env.LANG || "EN",
   HANDLERS:
     process.env.HANDLER === "false" || process.env.HANDLER === "null"
@@ -52,9 +52,9 @@ module.exports = {
           logging: false,
         }),
   SUDO: process.env.SUDO || "918113921898,919544951258",
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X0",
+  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "botowanar",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "1fbc5c45-ff41-4064-9a61-8c927a655c4a",
+  OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X",
   BOT_NAME: process.env.BOT_NAME || "X-asena",
   WORK_TYPE: process.env.WORK_TYPE || "public",
 };
